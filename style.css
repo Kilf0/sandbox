@@ -1,5 +1,4 @@
 *{
-
 margin: 0;
 padding: 0;	
 }
@@ -10,13 +9,7 @@ body {
 	line-height: 1.5;
 	//background: rgb(146, 198, 222);
 }
-h1 {
-	font-family: 'Underdog', sans-serif;
-	font-size: 2.3rem;
-	line-height: 5rem;
-	color: orange;
-	left: 10px;
-}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -32,6 +25,13 @@ img {
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 50px;
+	
+}
+.navbar {
+	border-style: none;
+	border-width: 1px;
+	background-color: rgb(167, 201, 255);
+
 }
 .navlinks {
 	position: fixed;
@@ -43,15 +43,49 @@ img {
 	margin: 0;
 	list-style: none;
 }
-.navlinks li a:hover{
-	transition-duration: 0.5s;
-	color: rgb(255, 170, 33);
+	.navlinks li a{
+		color: #32779C;
+		display: inline-block;
+		background-color: #32779C;  /* Blue */
+		color: white;
+		padding: 0.25em 0.5em;
+		border-radius: 0.375em;
+		text-decoration: none;
+		font-weight: bold;
+		font-family: 'comic relief', sans-serif;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 	}
+		.navlinks li a:hover{
+			transition-duration: 0.5s;
+			color: rgb(255, 170, 33);
+			}
 
 .main-menu{
 	display: flex;
 	justify-content: center;
 }
+h1 {
+	font-family: 'Underdog', sans-serif;
+	font-size: 6rem;
+	line-height: 5rem;
+	color: orange;
+	left: 10px;
+	margin: 0px 10px;
+	padding: 15px 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 2.2rem;
+}
+h2 {
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	color: rgb(233, 195, 98);
+	margin: 0.4rem 0; 
+}
+
+
+
 
 
 
